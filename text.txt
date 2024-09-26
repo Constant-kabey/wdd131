@@ -1,0 +1,24 @@
+.contener {
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 1em;
+}
+
+/* <div class="contener">
+            <div class="items">
+                <li><a href="google.com">google</a></li>
+            </div>
+            <div class="items">
+                <li><a href="facebook.com">facebook</a></li>
+            </div>
+            <div class="items">
+                <li><a href="linkedin.com">linkedin</a></li>
+            </div>
+            <div class="items">
+                <li><a href="gmail.com.com">gmail</a></li>
+            </div>
+        </div>*/

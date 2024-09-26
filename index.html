@@ -11,28 +11,33 @@
 
 <body>
     <header>
-        <h2 id="header">WDD 131 - Dynamic Web Fundamentals - Kabey, Constant Kalau</h2>
-        <div class="navig">
-            <nav>
-                <ul id="ul">
-                    <li><a class="btn" href="https://www.linkedin.com/in/kby-cnstnt-12072/">LinkedIn</a></li>
-                    <li><a class="btn" href="https://byui.instructure.com/">I-Learn</a></li>
-                    <li><a class="btn" href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a></li>
-                    <li><a class="btn" href="">Final Project</a></li>
-                </ul>
-            </nav>
+        <div>
+            <h2 id="header">WDD 131 - Dynamic Web Fundamentals - Kabey, Constant Kalau</h2>
+        </div>
+
+        <div class="contener">
+            <div class="items">
+                <li><a href="https://www.linkedin.com/in/kby-cnstnt-12072/">LinkedIn</a></li>
+            </div>
+            <div class="items">
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+            </div>
+            <div class="items">
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a></li>
+            </div>
+            <div class="items"></div>
+            <li><a href="">Final Project</a></li>
+        </div>
         </div>
 
     </header>
 
     <main>
 
-        <section id="section">
-
-        <section id="card1" class="card">
-
+        <section class="card">
+            
             <div id="about">
-                <p class="aboutme">About me</p>
+                <h1 class="aboutme">About me</h1>
             </div>
 
             <div id="me">
@@ -48,47 +53,52 @@
                 If you have any question you'd like to ask, please, use my LinkedIn profile or email me here.
                 </p>
             </div>
-                
-            <div id="main_photo"></div>
+
+            <div id="main_photo">
                 <img id="myphoto" src="images/constant.jpg" alt="My photo"> <!--My photo as student-->
             </div>
+
             <div id="pays">
                 <h2>Kinshasa, DR Congo</h2>
             </div>
-                
+
             <div id="countrypict">
                 <img id="flag" src="images/congo.jpeg" alt="country picture"> <!--My country picture goes here-->
             </div>
-                
-            <div id="drc">
-                    <p>
-                    DRC is a large country, the second in Africa. It is located in the central Africa, sorounded by 9
-                    other countries. The main city is Kinshasa, with more that 20 million people leaving there. <br>
-                    The country has 4 national languages (Lingala, Swahili, Kikongo and Tshiluba) and 1 official language
-                    (French), but many people also speak English.
-                    </p>
-                </div>
-            
-            </section  >
-                <div id="sec">
-                    <div id="ress">
-                        <p class="aboutme">Web Dev Ressources</p>
-                    </div>
 
-                    <div class="dev_res">
-                        <nav id="devnav">
-                            <ul id="devlist">
-                                <li><a class="dev" href="https://www.w3schools.com/colors/colors_names.asp">W3 Shools</a></li>
-                                <li><a class="dev" href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">Developer.mozilla</a></li>
-                                <li><a class="dev" href="https://www.javascript.com/">Javascript</a></li>
-                                <li><a class="dev" href="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061261-creez-votre-premiere-page-web-en-html">Open Classrooms</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    
+            <div id="drc">
+                <p>
+                DRC is a large country, the second in Africa. It is located in the central Africa, sorounded by 9
+                other countries. The main city is Kinshasa, with more that 20 million people leaving there. <br>
+                The country has 4 national languages (Lingala, Swahili, Kikongo and Tshiluba) and 1 official language
+                (French), but many people also speak English.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="devtool">
+
+            <div id="ress">
+                <h1 class="aboutme">Web Dev Ressources</h1>
+            </div>
+
+            <div class="content">
+                <div class="ressources">
+                    <a href="https://www.w3schools.com/colors/colors_names.asp">W3 Schools</a>
                 </div>
-            
-            </section>
+                <div class="ressources">
+                    <a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">Developer.mozilla</a>
+                </div>
+                <div class="ressources">
+                    <a href="https://www.javascript.com/">Javascript</a>
+                </div>
+                <div class="ressources">
+                <a class="dev"
+                    href="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061261-creez-votre-premiere-page-web-en-html">Open
+                    Classrooms</a>
+                </div>
+            </div>
 
         </section>
 
@@ -116,7 +126,7 @@
             <strong><em>&copy;September 2024 - Constant Kabey - Kinshasa</em></strong>
         </p>
 
-        <p class="copy"id="lastmod"></p>
+        <span class="copy" id="lastmod"></span>
 
     </footer>
 
