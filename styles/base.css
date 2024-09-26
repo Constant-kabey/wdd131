@@ -54,14 +54,13 @@ body {
 }
 
 .btn {
-    display: block;
-    padding: 12px;
+    display: flex;
     font-size: 20px;
 }
 
 .navig {
     background-color: #3e4145;
-    height: 9px;
+    height: 0px;
     padding: 1em;
     text-align: center;
     margin-top: 0px;
@@ -121,7 +120,7 @@ main {
     padding: 0.5em;
 }
 
-.dev{
+.dev {
     display: inline;
     color: black;
     grid-column: 1/3;
@@ -180,7 +179,7 @@ main {
     padding: 0.5em;
 }
 
-.aboutme{
+.aboutme {
     margin-top: 3px;
     font-size: 25px;
 }
@@ -205,6 +204,13 @@ main {
     text-align: center;
     text-decoration: underline;
 
+}
+
+@media screen and (min-width: 640px) {
+
+    #pays {
+        color: green;
+    }
 }
 
 #countrypict {
@@ -264,10 +270,6 @@ footer {
     padding: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) {}
 
-}
-
-@media (min-width: 601px) {
-
-}
+@media (min-width: 601px) {}
