@@ -147,7 +147,7 @@ footer {
 
     .buttons {
         position: fixed;
-        left: -100px;
+        left: -160px;
         top: 70px;
         gap: 0;
         flex-direction: column;
